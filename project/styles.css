@@ -1,0 +1,110 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Varela Round", sans-serif;
+  overflow-x: hidden;
+  overflow-y: hidden;.
+}
+#container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../project/image.jpg);
+  background-size: cover;
+  background: cover;
+  position: relative;
+}
+nav {
+  background: whitesmoke;
+}
+
+nav ul li {
+  font-family: "Varela Round", sans-serif;
+  display: inline-block;
+  position: relative;
+  margin-left: 30px;
+  padding: 19px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+nav li:hover {
+  border: 2px solid #66bfbf;
+  padding: 3px;
+  transition: padding 1s ease;
+  border-radius: 5px;
+}
+section {
+  margin-top: 250px;
+  margin-left: 85px;
+  display: flex;
+  position: absolute;
+  top: 5%;
+}
+
+.left {
+  width: 75vw;
+  height: 90vh;
+  display: inline-block;
+}
+.left p {
+  color: white;
+  margin-top: 10px;
+}
+.left h1 {
+  color: white;
+  font-size: 3rem;
+}
+section button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+.right {
+  width: 20vw;
+  height: 90vh;
+}
+.right ul li i {
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.dot {
+  font-size: 50px;
+  color: red;
+}
+.spart {
+  font-weight: bold;
+  font-size: 27px;
+}
+.left h1 {
+  font-size: 80px;
+}
+.left p {
+  width: 800px;
+}
+
+.left div {
+  color: white;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.left div span {
+  font-size: 50px;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: white;
+}
